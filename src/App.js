@@ -1,18 +1,17 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import Routes from './Routes'
 import { Header } from './components/template/Header';
-
 
 import Global from './global'
 
 function App() {
   return (
-    <div>
-        <Header />
-        <Routes />
-        <Global />
-    </div>
+    <Fragment>
+      <Header />
+      <Routes />
+      <Global />
+    </Fragment>
   );
 }
 

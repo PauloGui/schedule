@@ -1,14 +1,15 @@
 import React from 'react'
-import { BrowserRouter, Route} from 'react-router-dom'
-import { Content } from './components/template/Content'
-import { EditContact } from './components/template/EditContact'
-import { NewContact } from './components/template/NewContact'
+import { BrowserRouter, Route } from 'react-router-dom'
+
+import { List } from './pages/List'
+import { AddContact } from './pages/AddContact'
+import { EditContact } from './pages/EditContact'
 
 function Routes() {
-    return(
+    return (
         <BrowserRouter>
-            <Route path="/" exact component={Content} />
-            <Route path="/newcontact" component={NewContact} />
+            <Route path="/" exact component={List} />
+            <Route path="/newcontact" component={AddContact} />
             <Route path="/editcontact" component={EditContact} />
         </BrowserRouter>
     )
