@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Paulo Sousa",
+      "phone": "99999999",
+      "mail": "testdev@dev.com.br"
+    },
+    {
+      "name": "Luis Felipe",
+      "phone": "00000000",
+      "mail": "test2dev@dev.com.br",
+      "id": 2
+    },
+    {
+      "name": "Maria",
+      "phone": "6846846845",
+      "mail": "maria@teste.com",
+      "id": 4
+    },
+    {
+      "name": "Augusto",
+      "phone": "684765484564",
+      "mail": "aug@teste.com",
+      "id": 5
+    },
+    {
+      "name": "Joaozinho",
+      "phone": "684365465",
+      "mail": "joao@teste.com.br",
+      "id": 6
+    },
+    {
+      "name": "Pablo",
+      "phone": "6846215345",
+      "mail": "pablo@teste.com.br",
+      "id": 7
+    },
+    {
+      "name": "Angelo",
+      "phone": "68452548749",
+      "mail": "ang@teste.com.br",
+      "id": 8
+    }
+  ]
+}
