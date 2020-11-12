@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import Routes from './Routes'
-import { Header } from './components/template/Header';
+import { Header } from './components/Header';
 
 import Global from './global'
 

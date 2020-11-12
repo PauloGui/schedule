@@ -24,11 +24,11 @@ export const List = props => {
             {
                 contacts.map(contact => (
                     <div className="container-contact" key={contact.id}>
-                        <a href="/">
+                        <Link to={`contacts/${contact.id}`}>
                             <strong>{contact.name}</strong>
                             <p><FaPhone /> - {contact.phone}</p>
                             <p><FaMailBulk /> - {contact.mail}</p>
-                        </a>
+                        </Link>
                     </div>
                 ))
             }

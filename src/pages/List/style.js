@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const ContentStyle = styled.div`
 
        display: flex;
+       flex-wrap: wrap;
        width: 100vw;
 
     .container-add {
@@ -33,6 +34,7 @@ export const ContentStyle = styled.div`
 
     .container-contact {
         display: flex;
+        
         align-items: center;
         justify-content: center;
         width: 200px;

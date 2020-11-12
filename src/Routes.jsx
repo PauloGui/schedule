@@ -10,7 +10,7 @@ function Routes() {
         <BrowserRouter>
             <Route path="/" exact component={List} />
             <Route path="/newcontact" component={AddContact} />
-            <Route path="/editcontact" component={EditContact} />
+            <Route path="/contacts/:id" component={EditContact} />
         </BrowserRouter>
     )
 }

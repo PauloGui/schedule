@@ -2,7 +2,7 @@ import React from 'react'
 
 import { HeaderStyle } from './style'
 
-import Logo from '../../../assets/logo.png'
+import Logo from '../../assets/logo.png'
 
 export const Header = props => {
     return (
